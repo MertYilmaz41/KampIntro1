@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Homeworks
+namespace Homework1
 {
     class Product
     {
