@@ -17,6 +17,7 @@ namespace Donguler1
             Console.WriteLine(kurs3);
             Console.WriteLine(kurs4);
             Console.WriteLine(kurs5);
+            Console.WriteLine("------------------------");
 
 
             //array - dizi
@@ -30,13 +31,16 @@ namespace Donguler1
             {
                 Console.WriteLine(kurslar[i]);
             }
-
+           
             Console.WriteLine("For bitti");
+            Console.WriteLine("--------------------------");
 
             foreach (string kurs in kurslar)
             {
                 Console.WriteLine(kurs);
             }
+            Console.WriteLine("Foreach bitti");
+            Console.WriteLine("--------------------------");
 
             Console.WriteLine("Sayfa sonu - footer");
         }
